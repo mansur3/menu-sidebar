@@ -1,0 +1,165 @@
+export const menu = [
+  {
+    id: "7fdecf6f-df3a-4369-b284-36bb2c7b05611",
+    name: "AEPS",
+    description: '"AEPS" group of APIs',
+    title: "AEPS",
+    parentMenu: null,
+    subMenu: [
+      {
+        id: "b80ec1f2-c55e-408b-8d26-e3e5d8df8744433",
+        name: "AEPS+Aadhaar~Vault~Specs",
+        description: '"Aadhaar Vault Specs" API under "AEPS" group',
+        title: "Aadhaar~Vault~Specs",
+        parentMenu: "AEPS",
+        subMenu: [
+          {
+            id: "b80ec1f2-c55e-408b-8d26-e3e5d8df885e44",
+            name: "AEPS+Aadhaar~Vault~Specs+Indus",
+            description: '"Aadhaar Vault Specs" API under "AEPS" group',
+            title: "Indus",
+            parentMenu: "Aadhaar~Vault~Specs",
+          },
+        ],
+      },
+      {
+        id: "d4c01fb8-a227-4957-96c9-4bc48030706755",
+        name: "AEPS+DigiFundTransfer",
+        description: '"DigiFundTransfer" group of APIs under AEPS',
+        title: "DigiFundTransfer",
+        parentMenu: "AEPS",
+        subMenu: [
+          {
+            id: "d4c01fb8-a227-4957-96c9-4bc48030706755",
+            name: "AEPS+DigiFundTransfer+xyz",
+            description: '"DigiFundTransfer" group of APIs under AEPS',
+            title: "xyz",
+            parentMenu: "DigiFundTransfer",
+            subMenu: [
+              {
+                id: "d4c01fb8-a227-4957-96c9-4bc48030706755",
+                name: "AEPS+DigiFundTransfer+xyz+pou",
+                description: '"DigiFundTransfer" group of APIs under AEPS',
+                title: "pou",
+                parentMenu: "xyz",
+                subMenu: [
+                  {
+                    id: "d4c01fb8-a227-4957-96c9-4bc48030706755",
+                    name: "AEPS+DigiFundTransfer+xyz+pou+iopp",
+                    description: '"DigiFundTransfer" group of APIs under AEPS',
+                    title: "iopp",
+                    parentMenu: "pou",
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "b80ec1f2-c55e-408b-8d26-e3e5d8df87422",
+    name: "sd",
+    description: '"Aadhaar Vault Specs" API under "AEPS" group',
+    title: "sd",
+    parentMenu: null,
+  },
+  {
+    id: "eeb38060-7cc2-4c5f-9f7c-81c94c734e000",
+    name: "BBPS",
+    description: '"BBPS" group of APIs',
+    title: "BBPS",
+    parentMenu: null,
+    subMenu: [
+      {
+        id: "eeb38060-7cc2-4c5f-9f7c-81c94c734e000",
+        name: "BBPS+mnm",
+        description: '"BBPS" group of APIs',
+        title: "mnm",
+        parentMenu: "BBPS",
+        subMenu: [
+          {
+            id: "eeb38060-7cc2-4c5f-9f7c-81c94c734e04",
+            name: "BBPS+mnm+abc",
+            description: '"BBPS" group of APIs',
+            title: "abc",
+            parentMenu: "mnm",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "a645c21f-1fc5-49f0-af52-aa7bbb5b4919",
+    name: "CCCustomerReporting",
+    description: "CCCustomerReporting API (isolated)",
+    title: "CCCustomerReporting",
+    parentMenu: null,
+  },
+  {
+    id: "cd9dc8ec-000c-429d-bc30-eaa70ddcc105",
+    name: "DigiAccountReporting",
+    description: "DigiAccountReporting API (isolated)",
+    title: "DigiAccountReporting",
+    parentMenu: null,
+  },
+  {
+    id: "597ca9aa-e5b4-4683-8ca8-5f0edf7cb492",
+    name: "Fastag",
+    description: '"Fastag" group of APIs',
+    title: "Fastag",
+    parentMenu: null,
+  },
+  {
+    id: "60669d5d-ac2e-4d4f-bb9d-4d372999e49d",
+    name: "Final",
+    description: '"Final" group of APIs',
+    title: "Final",
+    parentMenu: null,
+  },
+  {
+    id: "3e8f21f5-f237-4ca5-9701-dd9710017ae1",
+    name: "OTPAdapter",
+    description: "OTPAdapter API (isolated)",
+    title: "OTPAdapter",
+    parentMenu: null,
+  },
+  {
+    id: "e1f265d9-f6e1-490b-b08a-56b98cb4b58a",
+    name: "OnboardingCustomerAPI",
+    description: '"OnboardingCustomerAPI" group of APIs',
+    title: "OnboardingCustomerAPI",
+    parentMenu: null,
+  },
+  {
+    id: "e99a3d35-b530-4e4d-8538-1c962ce190c8",
+    name: "SMS_EMAIL",
+    description: '"SMS_EMAIL" group of APIs',
+    title: "SMS_EMAIL",
+    parentMenu: null,
+  },
+  {
+    id: "d88ab5aa-3992-47f2-99e0-274f05a31f42",
+    name: "UPI",
+    description: '"UPI" group of APIs',
+    title: "UPI",
+    parentMenu: null,
+  },
+  {
+    id: "13a2f1d9-b3b1-4c16-8e55-57393b777bb4",
+    name: "VideoKYC",
+    description: '"VideoKYC" group of APIs',
+    title: "VideoKYC",
+    parentMenu: null,
+  },
+  {
+    id: "d1622898-c948-46d3-b8d1-dd0038f0637b",
+    name: "payments",
+    description: "payments API",
+    title: "payments",
+    parentMenu: null,
+  },
+];
+//  = JSON.parse(data);
+// console.log(menu);
